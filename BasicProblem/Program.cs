@@ -18,6 +18,10 @@ namespace BasicProblem
                     PrintHello printHello = new PrintHello();
                     printHello.Hello();
                     break;
+                case 2:
+                    Sum sum = new Sum();
+                    sum.Num();
+                    break;
             }
             Console.ReadLine();
         }
