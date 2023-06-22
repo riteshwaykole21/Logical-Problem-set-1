@@ -17,6 +17,7 @@ namespace BasicProblem
             Console.WriteLine("4 : Perform Specific Opration");
             Console.WriteLine("5 : After Swapping The Numbers");
             Console.WriteLine("6 : Multiply 3 Numbers");
+            Console.WriteLine("7 : All Opration Perform");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -43,6 +44,10 @@ namespace BasicProblem
                 case 6:
                     Multiply3 multiply3 = new Multiply3();
                     multiply3.Number(); 
+                    break;
+                case 7:
+                    AllOpration allOpration = new AllOpration();
+                    allOpration.Numbers();  
                     break;
             }
             Console.ReadLine();

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllOpration.cs" />
     <Compile Include="DivindingNum.cs" />
     <Compile Include="Multiply3.cs" />
     <Compile Include="PrintHello.cs" />
