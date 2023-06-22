@@ -20,6 +20,7 @@ namespace BasicProblem
             Console.WriteLine("7 : All Opration Perform");
             Console.WriteLine("8 : Multiplication Table");
             Console.WriteLine("9 : Average Number ");
+            Console.WriteLine("10 : Opration ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -59,6 +60,10 @@ namespace BasicProblem
                 case 9:
                     AverageNumber averageNumber = new AverageNumber();
                     averageNumber.Number();
+                    break;
+                case 10:
+                    XYZOPration xYZOPration = new XYZOPration();
+                    xYZOPration.Number();
                     break;
             }
             Console.ReadLine();
