@@ -52,6 +52,7 @@
     <Compile Include="SpecificOpra.cs" />
     <Compile Include="Sum.cs" />
     <Compile Include="SwappNum.cs" />
+    <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
