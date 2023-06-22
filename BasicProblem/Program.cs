@@ -14,6 +14,7 @@ namespace BasicProblem
             Console.WriteLine("1 : Print Hello");
             Console.WriteLine("2 : Sum Of Two Number");
             Console.WriteLine("3 : Dividing Of Two Numbers");
+            Console.WriteLine("4 : Perform Specific Opration");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -28,6 +29,10 @@ namespace BasicProblem
                 case 3:
                     DivindingNum divindingNum = new DivindingNum();
                     divindingNum.Number();
+                    break;
+                case 4:
+                    SpecificOpra specificOpra = new SpecificOpra();
+                    specificOpra.Number();
                     break;
             }
             Console.ReadLine();
