@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllOpration.cs" />
+    <Compile Include="AverageNumber.cs" />
     <Compile Include="DivindingNum.cs" />
     <Compile Include="Multiply3.cs" />
     <Compile Include="PrintHello.cs" />
